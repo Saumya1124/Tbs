@@ -1,0 +1,69 @@
+History Of Nucly quot put on banner bin
+
+
+loging page ----
+only singup, color white, button white,     #b5b3b3
+u-cap's
+
+social icon-----facebook -- reddit
+
+navbar
+1)color gray on hover
+2)l-lowercase
+3)bg tranparent: 0.6
+
+home page-----
+1)arrow
+2)
+log&reg
+corners: no border redius
+buttons no gradients only use black and white
+text alignment
+only place holders no labels
+box tranparet incress
+no images on login box
+no opacity
+sharp edges buttons
+
+23/03/2021
+h2 fontsize: 4rem;
+navbar list put on the left and right side social media name's
+
+
+29-03-2021
+
+->HOME
+service row spaceing need more and know more button also need margin space
+
+mobile view spaceing
+
+ mobile view home page images click page redirect on click after 2sec
+
+->login:
+
+forgor signup alignment
+
+->menu:
+to add:
+Instagram
+pinterest 
+reddit 
+twitter
+
+->stories page layout
+
+->footer page development
+
+0704-2021
+
+home page
+
+first stories -> shorts
+heading size increase
+mobile menu social vericcal height decress
+mobile view logo alignment
+
+Stories page
+image heading text need to add
+
+

@@ -1,0 +1,271 @@
+section{
+     
+    display:flex;
+    width:100%;
+ justify-content:center; 
+ flex-direction:row;
+}
+.login-box{
+    width:402px;
+    height:auto;
+    background: var(--secondary-color);
+    color:var(--primary-color);
+    box-sizing:border-box;
+    padding: 50px;  
+    font-family: century Gothic; 
+     margin-top:100px;
+    margin-left:70px; 
+   
+}
+
+   .login-box input {
+        width:100%;
+        margin-bottom: 20px;
+   }
+   .login-box input[type="text"],input[type="password"],input[type="email"],input[type="tel"],input[type="date"],input[type="country"]
+   {
+       border:none;
+       border-bottom:2px solid var(--primary-color);
+       background: transparent;
+       outline: none;
+       height: 40px;
+       color:var(--primary-color);
+       font-size:13px;
+   }
+   
+   .login-box textarea{
+       width:100%;
+        margin-bottom: 20px;
+        border:none;
+       border-bottom:2px solid var(--primary-color);
+       background: transparent;
+       outline: none;
+     
+       color:var(--primary-color);
+       font-size:13px;
+   }
+  
+   .login-box a{
+       text-decoration:none;
+       font-size:14px;
+       color:var(--primary-color);
+   }
+   .login-box a:hover{
+        color:rgb(255, 255, 255, 0.3);
+   }
+
+   @media only screen and (max-width:430px){
+       .login-box{
+           width:370px;
+       }
+   }
+   @media only screen and (max-width:392px){
+       .login-box{
+           width:320px;
+       }
+   }
+   @media only screen and (max-width:342px){
+       .login-box{
+           width:290px;
+       }
+   }
+   @media only screen and (max-width:309px){
+       .login-box{
+           width:250px;
+       }
+   }
+   @media only screen and (max-width:265px){
+       .login-box{
+           width:230px;
+       }
+   }
+.heading{
+   text-align: left;
+   font-size: 18px;
+   margin-bottom: 40px;
+   color:var(--secondary-color);
+}
+
+.loginbtn {
+ width: 160px;
+ height: 50px;
+ background-color: var(--primary-color);
+ outline: none;
+}
+@media only screen and (max-width:309px){
+       .loginbtn{
+           width:130px;
+       }
+       .login-box h3{
+           font-size:27px;
+       }
+   }
+   ::placeholder{
+       color: #c2c0c0;
+
+   }
+   
+.customBtn {
+     display: inline-block;
+     color: var(--primary-color);
+     width: 190px;
+     white-space: nowrap;
+   }
+.customBtn:hover {
+     cursor: pointer;
+   }
+.span.label {
+     font-family: century gothic;
+     font-weight: normal;
+   }
+
+.span.buttonText {
+     display: inline-block;
+     vertical-align: middle;
+     padding-left: 42px;
+     padding-right: 42px;
+     font-size: 14px;
+     font-family: century gothic;
+   }
+
+   
+       @media only screen and (max-width:591px){
+       .login-box{
+       
+          margin-left:50px;
+        }
+   }
+   @media only screen and (max-width:492px){
+       .login-box{
+       
+          margin-left:40px;
+
+       }
+   }
+   @media only screen and (max-width:471px){
+       .login-box{
+       
+          margin-left:30px;
+
+       }
+   }
+   @media only screen and (max-width:455px){
+       .login-box{
+       
+          margin-left:25px;
+   
+
+       }
+   }
+   @media only screen and (max-width:443px){
+       .login-box{
+       
+          margin-left:50px;
+       width:350px;
+       }
+   }
+   @media only screen and (max-width:430px){
+       .login-box{
+       
+          margin-left:40px;
+
+       }
+   }
+   @media only screen and (max-width:420px){
+       .login-box{
+       
+          margin-left:30px;
+
+       }
+   }
+   @media only screen and (max-width:403px){
+       .login-box{
+       
+          margin-left:50px;
+           width:300px;
+       }
+       .left{
+          margin-left:-20px;
+      }
+   }
+   @media only screen and (max-width:387px){
+       .login-box{
+       
+          margin-left:40px;
+          
+       }
+   }
+   @media only screen and (max-width:367px){
+       .login-box{
+       
+          margin-left:35px;
+       }
+   }
+   @media only screen and (max-width:359px){
+       .login-box{
+       
+          margin-left:30px;
+       }
+   }
+   @media only screen and (max-width:346px){
+       .login-box{
+       
+          margin-left:25px;
+       }
+   }
+   @media only screen and (max-width:340px){
+       .login-box{
+       
+          margin-left:30px;
+          width:280px;
+       }
+   }
+   @media only screen and (max-width:324px){
+       .login-box{
+       
+          margin-left:20px;
+       }
+   }
+   @media only screen and (max-width:310px){
+       .login-box{
+       
+          margin-left:15px;
+       }
+   }
+   @media only screen and (max-width:306px){
+       .login-box{
+       
+          margin-left:15px;
+          width:265px;
+       }
+   }
+   @media only screen and (max-width:291px){
+       .login-box{
+       
+          margin-left:12px;
+       }
+   }
+   @media only screen and (max-width:285px){
+       .login-box{
+       
+          margin-left:10px;
+       }
+   }
+   @media only screen and (max-width:281px){
+       .login-box{
+       
+          margin-left:5px;
+       }
+   }
+   @media only screen and (max-width:276px){
+       .login-box{
+       
+          margin-left:2px;
+       }
+   }
+   @media only screen and (max-width:271px){
+       .login-box{
+       
+          margin-left:0px;
+       }
+   }
